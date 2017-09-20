@@ -5,7 +5,7 @@ public class Lection2HomeWorkTask1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("¬ведите п€тизначное число и нажмите Enter:");
+		System.out.println("Enter number > 9999 & < 100000");
 		int a = sc.nextInt();
 		
 		System.out.println(a / 10000);
