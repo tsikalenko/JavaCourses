@@ -9,12 +9,16 @@ public class Lection4HomeWorkTask2 {
 		
 		System.out.println("Enter number:");
 		int n = sc.nextInt();
-		int f = 1;
-		
-		for (; n > 0; n--) {
-			f *= n;
+		if (n > 4 && n < 16) {
+			int f = 1;
+
+			for (; n > 0; n--) {
+				f *= n;
+			}
+			System.out.println(f);
+		} else {
+			System.out.println("Error!");
 		}
-		System.out.println(f);
 		
 		sc.close();
 	}
