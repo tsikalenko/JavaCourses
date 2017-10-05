@@ -24,8 +24,6 @@ public class Main {
 			return "eight";
 		case 9:
 			return "nine";
-		case 0:
-			return "zero";
 		default:
 			return "";
 		}
