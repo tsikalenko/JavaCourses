@@ -7,7 +7,7 @@ import java.util.Date;
 public class Main {
 
 	public static void main(String[] args) {
-		File folder = new File("E:/‘ÓÚÓ/");
+		File folder = new File("E:/√î√Æ√≤√Æ/");
 		
 		System.out.println(getFileInfo(folder));
 	}
@@ -32,9 +32,9 @@ public class Main {
 		StringBuilder sb = new StringBuilder();
 		File[] files = folder.listFiles();
 		for (File file : files) {
-			//if(file.isDirectory()) {
+			if(file.isDirectory()) {
 				sb.append(getFileInfo(file)).append(System.lineSeparator());
-			//}
+			}
 		}
 		return sb.toString();
 	}
